@@ -2,9 +2,6 @@
 
 int sum(int n)
 {
-	int rst = 0;
-	for(int i=1;i<=n;i++)
-		rst += i;
-	return rst;
+	return (n*(n+1) / 2);
 }
 
